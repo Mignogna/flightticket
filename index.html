@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Ticket</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="boarding-pass">
+      <h1>Boarding Ticket</h1>
+      <main id="ticket">
+        <section class="top grid">
+          <div>
+            <img
+              class="aa_logo"
+              src="./image/aa_img.jpeg"
+              alt="American Airlines logo"
+            />
+          </div>
+          <div class="flight grid column">
+            <div class="number">
+              <p>Flight</p>
+              <strong>AA 756</strong>
+            </div>
+            <div class="date text-right">
+              <p>Date</p>
+              <strong>21 apr 2025</strong>
+            </div>
+          </div>
+          <div class="grid column">
+            <div class="departure grid">
+              <p>São Paulo, Brazil</p>
+              <strong>GRU</strong>
+              <time>17:05</time>
+            </div>
+            <div class="airplane grid">
+              <ion-icon name="airplane"></ion-icon>
+            </div>
+            <div class="arrival text-right grid">
+              <p>New York, EUA</p>
+              <strong>EWR</strong>
+              <time>04:48<sup>+1</sup></time>
+            </div>
+          </div>
+        </section>
+        <section class="middle grid column">
+          <div class="pax-name">
+            <p>Passenger</p>
+            <strong>Helena Mignogna, Ms</strong>
+          </div>
+          <div class="seat text-right">
+            <p>Seat</p>
+            <strong>16A</strong>
+          </div>
+        </section>
+        <section class="bottom">
+          <div class="container grid column">
+            <dl class="grid">
+              <dt>
+                <p>Boarding</p>
+                <time>16:00</time>
+              </dt>
+              <dt>
+                <p>Terminal</p>
+                <strong>3</strong>
+              </dt>
+              <dt>
+                <p>Gate</p>
+                <strong>18</strong>
+              </dt>
+            </dl>
+            <div class="qrCode text-right">
+              <img src="./image/qrCode.jpeg" alt="QR Code" />
+              <p>Boarding group: 2</p>
+            </div>
+          </div>
+          <p>
+            <strong>Attention:</strong> Gate closes 30 minutes before departure
+          </p>
+        </section>
+      </main>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
